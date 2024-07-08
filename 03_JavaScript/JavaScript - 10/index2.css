@@ -1,0 +1,12 @@
+p
+{
+    cursor:alias;
+}
+
+.box
+{
+    background-color: pink;
+    height: 100px;
+    width:100px;
+    border:2px solid black;
+}

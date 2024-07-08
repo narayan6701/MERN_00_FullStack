@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        #container div
+        {
+            background-color: pink;   
+        }
+
+        #container
+        {
+            display:grid;
+            grid-template-rows:repeat(12, 1fr);
+            grid-template-columns:repeat(12, 1fr);
+
+            grid-gap:10px 10px;
+
+            margin:0;
+            padding:0;
+            height:100vh;
+        }
+
+        #header
+        {
+            grid-column:1/13;
+        }
+
+        #sidebar
+        {
+            grid-column:1/4;
+            grid-row:2/12;
+        }
+
+        #navigation
+        {
+            grid-column:4/span 6;
+        }
+
+        #ads
+        {
+            grid-row:2/span 10;
+            grid-column:10/ span 3;
+        }
+
+        #main
+        {
+            grid-row:3/ span 9;
+            grid-column:4/ span 6;
+        }
+
+        #footer
+        {
+            grid-row:12/ span 1;
+            grid-column:1/13;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">header</div>
+        <div id="sidebar">sidebar</div>
+        <div id="navigation">navigation</div>
+        <div id="ads">ads</div>
+        <div id="main">main</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>

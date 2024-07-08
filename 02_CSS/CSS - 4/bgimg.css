@@ -1,0 +1,10 @@
+div
+{
+    border:2px solid black;
+    height:100px;
+    width:300px;
+
+    background-image: url(1.png);
+
+    background-size: contain;
+}

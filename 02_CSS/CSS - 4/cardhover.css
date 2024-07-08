@@ -1,0 +1,29 @@
+.card
+{
+    display:inline-block;
+    border:2px solid black;
+    border-radius: 5px;
+
+    height:250px;
+    width:200px;
+    transition: 0.5s;
+    margin: 30px;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+.card:hover
+{
+    transform:scale(1.05);
+    box-shadow: 8px 8px 20px lightskyblue;
+}
+
+.about
+{
+    padding:2px;
+}
+
+img{
+    border-radius:3px 3px 0 0;
+}
+

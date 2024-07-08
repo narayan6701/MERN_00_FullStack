@@ -1,0 +1,33 @@
+div{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    margin:50px auto;
+    background-color: pink;
+    transition: 1s;
+}
+
+#one:hover
+{
+    transform:rotate(45deg);
+}
+
+#two:hover
+{
+    transform: scale(50%);
+}
+
+#three:hover
+{
+    transform:translate(100px, 100px)
+}
+
+#four:hover
+{
+    transform:skew(45deg);
+}
+
+#five:hover
+{
+    transform:rotate(30deg) translateX(150px) scale(1.5) skew(50deg)
+}

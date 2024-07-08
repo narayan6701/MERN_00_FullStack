@@ -1,0 +1,49 @@
+h2
+{
+    color:darksalmon;
+}
+
+span
+{
+    color:darkred;  
+}
+
+.card
+{
+    width:400px;
+    
+
+    border: 2px solid black;
+    border-radius: 25px;
+
+    padding:10px;
+    margin:10px;    
+}
+
+img
+{
+    width:100%;
+    border-radius:25px;
+}
+
+#pets
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:relative;
+}
+  
+h4 
+{
+    text-align: right;
+    color: #3c787e;
+}
+
+@media (max-width:375px)
+{
+    #pets
+    {
+        flex-wrap:wrap;
+    }
+}

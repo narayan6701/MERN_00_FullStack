@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+p {
+  border: 2px solid black;
+  height: 300px;
+  width: 700px;
+}
+
+#txt {
+  height: 20px;
+  width: 200px;
+}

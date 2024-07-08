@@ -1,0 +1,16 @@
+*{
+    font-family:courier new;
+}
+
+h1{
+    color:#1b74e4;
+}
+
+#search{
+    background-color: black;
+    color:white;
+}
+
+.user{
+    background-color: aqua;
+}

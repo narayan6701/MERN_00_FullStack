@@ -1,0 +1,35 @@
+.box
+{
+    height:100px;
+    width:300px;
+
+    background-color: pink;
+    border:2px solid black;
+    border-radius: 5px;
+
+    animation-name:widthanime;
+    animation-duration:1s;
+    animation-timing-function: ease-in;
+    animation-delay:0;
+
+    animation-iteration-count:5;
+    animation-direction:normal;
+}
+
+@keyframes fontanimation
+{
+    from {font-size:20px;}
+    to {font-size:40px;}
+}
+
+@keyframes coloranime
+{
+    from{background-color: red;}
+    to{background-color: yellow;;}
+}
+
+@keyframes widthanime
+{
+    from{width:10px;}
+    to{width:1000px;}
+}

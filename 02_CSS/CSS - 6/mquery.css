@@ -1,0 +1,55 @@
+h1
+{
+    background-color: yellow;
+    border:2px solid black;
+}
+
+/* @media (width:400px)
+{
+    h1
+    {
+        background-color: red;
+        color:white;
+    }
+
+    div
+    {
+        height:100px;
+        width:100px;
+
+        background-color: blue;;
+    }
+} */
+
+/* @media (min-width:600px)
+{
+    h1
+    {
+        background-color: red;
+    }
+} */
+
+/* @media (max-width:900px)
+{
+    h1
+    {
+        background-color: pink;
+    }
+} */
+
+/* @media (min-width:100px) and (max-width:500px)
+{
+    h1
+    {
+        background-color: aliceblue;
+    }
+} */
+
+@media (orientation:landscape)
+{
+    h1
+    {
+        background-color: aqua;
+        color:brown;
+    }
+}

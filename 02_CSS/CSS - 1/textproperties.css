@@ -1,0 +1,19 @@
+h1{
+    color:darkred;
+    background-color: pink;
+    text-align: right;
+    border:solid;
+    width:50%;
+}
+
+h2{
+    color:black;
+    background-color: pink;
+    text-align:left;
+}
+
+p{
+    color:gray;
+    background-color: antiquewhite;
+    text-align:justify;
+}

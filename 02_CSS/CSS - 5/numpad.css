@@ -1,0 +1,27 @@
+#cont
+{
+    border:2px solid teal;
+    height:400px;
+    width:400px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+    justify-content:space-evenly;
+
+    align-items: center;
+}
+
+.lts
+{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    font-size:50px;
+    text-align: center;
+
+    background-color: gray;
+    border-radius: 10px;
+    
+}

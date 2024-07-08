@@ -1,0 +1,41 @@
+#outer
+{
+    height:400px;
+    width:400px;
+    background-color: pink;
+    margin:50px;
+    font-size:20px;
+}
+
+#inner
+{
+    height:100px;
+    width:100px;
+    background-color: cornflowerblue;
+    margin:10%;
+    font-size:2em;
+}
+
+h1{
+    border:2px solid black;
+    width:50%;
+}
+
+#btn
+{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 2px solid darkred;
+    color:darkred;
+    background-color: pink;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+div{
+    font-size:2rem;
+}
+
+section{
+    font-size: 15px;
+}

@@ -1,0 +1,40 @@
+div
+{
+    height:100px;
+    width:100px;
+
+    background-color: green;
+    text-align: center;
+    border:3px solid black;
+    margin:20px;
+    display:inline-block;
+}
+
+#static{
+    background-color: red;
+    position:static;
+    top:1500px;
+    left:10px;
+}
+
+#relative{
+    background-color: yellow;
+    position:relative;
+    top:100px;
+    left:100px;
+}
+
+#absolute{
+    background-color: blue;
+    position:absolute;
+    top:100px;
+    left:100px;
+}
+
+#fixed
+{
+    background-color: indigo;
+    position:fixed;
+    top:100px;
+    left:100px;    
+}

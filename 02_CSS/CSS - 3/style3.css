@@ -1,0 +1,34 @@
+div
+{
+    height:200px;
+    width:200px;
+    background-color: greenyellow;
+    border:2px solid black;
+    margin:5px;
+    display: inline-block;
+}
+
+#special
+{
+    display:none;
+}
+
+h1
+{
+    border: 2px solid black;
+    width:33%;
+}
+
+#outer
+{
+    height:100px;
+    width:100px;
+    background-color: pink;
+}
+
+#inner
+{
+    height:40px;
+    width:40px;
+    background-color: cornflowerblue;
+}
