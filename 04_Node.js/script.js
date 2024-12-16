@@ -4,3 +4,6 @@ for(let i=0; i<n; i++){
 }
 
 console.log("Narayan Bhardwaj");
+console.log(process.argv);
+
+// node script.js hello bye
