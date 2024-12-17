@@ -12,3 +12,7 @@ console.log(process.argv);
 const someValue = require("./math.js");
 
 console.log(someValue);
+
+console.log(someValue.sum(2,2));
+console.log(someValue.pi);
+console.log(someValue.g);
