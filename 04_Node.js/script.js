@@ -7,3 +7,8 @@ console.log("Narayan Bhardwaj");
 console.log(process.argv);
 
 // node script.js hello bye
+
+
+const someValue = require("./math.js");
+
+console.log(someValue);
