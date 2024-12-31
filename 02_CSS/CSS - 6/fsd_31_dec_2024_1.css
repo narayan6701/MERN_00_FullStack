@@ -1,0 +1,23 @@
+div{
+    background-color:lightblue;
+    width:100vw;
+    height:4rem;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items:center;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 2rem;
+    font-family: "calibri";
+}
+
+a:hover{
+    background-color: blueviolet;
+}
